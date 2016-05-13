@@ -1,1 +1,24 @@
-Hello World
+<head>
+    <title>CodePen - Weather App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://github.com/lipis/bootstrap-social/blob/gh-pages/bootstrap-social.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+<h1 class="text-center">Weather App</h1>
+<h3 id="loc" class="text-center"></h3>
+<h3 id="error" class="text-center"><span id="temp"></span>&deg;<button type="button" id="button"></button></h3>
+<h3 id="weather" class="text-center"></h3>
+
+<figure class="icons text-center">
+  <canvas id="icon" width="64" height="64"></canvas>
+</figure>
+</body>
